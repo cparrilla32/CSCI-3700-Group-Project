@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chng_welcome">Change your Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="action_chngPass">Change Password</string>
+    <string name="action_cancel">Cancel</string>
+
+</resources>

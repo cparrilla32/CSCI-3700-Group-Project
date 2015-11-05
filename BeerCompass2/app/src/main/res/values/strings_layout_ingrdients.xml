@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="whatBeer">"Beer has been brewed since ancient times, and has at it\'s core remained virtually unchanged. Beer essentially consists of four main ingredients: grains, hops, yeast, and water. With just these four ingredients an astounding number of distinct beers can be made.</string>
+    <string name="hops">"Hops:"</string>
+    <string name="grain">"Grain:"</string>
+    <string name="yeast">"Yeast:"</string>
+    <string name="Water">"Water:"</string>
+    <string name="hopsDetail">an ingredient introduced during the middle ages, add flavor and aroma that balance the sugar of malt with bitterness. They function as a spice and a preservative and are ordinarily added during the brewing process.</string>
+    <string name="grainDetail">usually barley although other grains can be used. Provides starch that is converted to sugar.</string>
+    <string name="yeastDetail">is a fungus that produces alcohol and carbonation as it consumes sugar – the process of fermentation.</string>
+    <string name="waterDetail">is, well…water. Since beer is roughly 90% water, the quality and mineral content cannot be taken for granted.</string>
+</resources>

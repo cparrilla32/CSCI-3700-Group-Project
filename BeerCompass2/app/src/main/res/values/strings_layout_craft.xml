@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="craft">"When trying to define craft beer, each beer lover has a unique interpretation and story of discovery to share. To make a true craft beer definition even more difficult, each individual beer brand is one of a kind."</string>
+    <string name="def">"The Brewers Association, however, does define an American craft brewer."</string>
+    <string name="amCraft">"An American Craft Brewer Is:"</string>
+    <string name="small">"SMALL"</string>
+    <string name="independent">"INDEPENDENT"</string>
+    <string name="traditional">"TRADITIONAL"</string>
+    <string name="smallDetail">"Annual production of 6 million barrels of beer or less (approximately 3 percent of U.S. annual sales). Beer production is attributed to the rules of alternating proprietorships."</string>
+    <string name="independentDetail">"Less than 25 percent of the craft brewery is owned or controlled (or equivalent economic interest) by a beverage alcohol industry member that is not itself a craft brewer."</string>
+    <string name="traditionalDetail">"A brewer that has a majority of its total beverage alcohol volume in beers whose flavor derives from traditional or innovative brewing ingredients and their fermentation."</string>
+</resources>

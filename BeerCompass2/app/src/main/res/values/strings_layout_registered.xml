@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_registered">Congratulations! You have successfully joined Beer Compass.
+        Now get out there and drink some beer! </string>
+    <string name="registered_details">Your Registration Details</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ales">ALES</string>
+    <string name="lagers">LAGERS</string>
+    <string name="btn_ipa">INDIA PALE ALE</string>
+    <string name="btn_pa">PALE ALE</string>
+    <string name="btn_ba">BROWN ALE</string>
+    <string name="btn_stout">STOUT</string>
+    <string name="btn_porter">PORTER</string>
+    <string name="btn_hfw">HEFEWEISEN</string>
+    <string name="btn_amber">AMBER</string>
+    <string name="btn_pils">PILSNER</string>
+    <string name="btn_bock">BOCK</string>
+
+</resources>

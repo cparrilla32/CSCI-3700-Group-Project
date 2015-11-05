@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/whatBeer"
+        android:id="@+id/whatBeer"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="341dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/hops"
+            android:id="@+id/hops"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_alignBaseline="@+id/hopsDetail"
+            android:layout_alignBottom="@+id/hopsDetail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hopsDetail"
+            android:id="@+id/hopsDetail"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/hops"
+            android:layout_toEndOf="@+id/hops" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grain"
+            android:id="@+id/grain"
+            android:layout_below="@+id/hopsDetail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grainDetail"
+            android:id="@+id/grainDetail"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/grain"
+            android:layout_toRightOf="@+id/grain"
+            android:layout_toEndOf="@+id/grain" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yeast"
+            android:id="@+id/yeast"
+            android:layout_below="@+id/grainDetail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yeastDetail"
+            android:id="@+id/yeastDetail"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/yeast"
+            android:layout_toRightOf="@+id/yeast"
+            android:layout_toEndOf="@+id/yeast" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Water"
+            android:id="@+id/water"
+            android:layout_below="@+id/yeastDetail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/waterDetail"
+            android:id="@+id/waterDetail"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/water"
+            android:layout_toRightOf="@+id/water"
+            android:layout_toEndOf="@+id/water" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_back"
+            android:id="@+id/buttonBck"
+            android:layout_gravity="right"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

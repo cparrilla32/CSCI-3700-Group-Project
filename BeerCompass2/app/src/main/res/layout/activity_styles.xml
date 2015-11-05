@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout"
+        android:layout_alignLeft="@+id/ales"
+        android:layout_alignStart="@+id/ales">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ales"
+            android:text="@string/ales"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="61dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginStart="61dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_pa"
+            android:id="@+id/pa" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_ipa"
+            android:id="@+id/ipa" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_ba"
+            android:id="@+id/ba" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_stout"
+            android:id="@+id/stout" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_porter"
+            android:id="@+id/porter" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_hfw"
+            android:id="@+id/hfw" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lagers"
+            android:id="@+id/lagers"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="61dp"
+            android:layout_marginTop="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="61dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_amber"
+            android:id="@+id/amber"
+           />
+
+        <Button
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_pils"
+            android:id="@+id/pils" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_bock"
+            android:id="@+id/bock" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back"
+        android:id="@+id/button_back"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

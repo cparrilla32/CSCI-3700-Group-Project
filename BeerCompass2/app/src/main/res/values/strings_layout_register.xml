@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_register">Join Beer Compass!</string>
+    <string name="prompt_Fname">First Name</string>
+    <string name="prompt_Lname">Last Name</string>
+    <string name="prompt_Uname">User Name</string>
+    <string name="action_back">Back to login</string>
+
+</resources>

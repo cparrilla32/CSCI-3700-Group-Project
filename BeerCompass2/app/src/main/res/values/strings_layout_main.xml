@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_panel">User Panel</string>
+    <string name="action_changePwd">Change Password</string>
+    <string name="action_logout">LogOut</string>
+    <string name="action_search">Search</string>
+    <string name="action_recommended">Recommended</string>
+    <string name="action_learn">Learn</string>
+</resources>

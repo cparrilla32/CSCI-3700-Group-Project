@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pa_detail">Most countries with a brewing tradition have Pale Ales. They are brewed with ale yeast and lightly-roasted malts, and are generally more lightly hopped than other beer styles. They will normally be a light golden in color, darker than lagers but paler than Brown Ale.</string>
+    <string name="ipa_detail">The India Pale Ale (IPA) originated from the time of the Raj, when breweries in England sent their Pale Ales to India by sea. By the time they arrived, the beer was undrinkable - it had soured on the long, hot journey. The breweries increased the amount of hops in the Pale Ale, as hops are a natural preservative. To counteract the hop bitterness, they added more pale malt as well - more malt means more sugars, which means more alcohol. The end result is an intensely hoppy, bitter beer with a strong malt backbone and a higher alcohol content than a typical Pale Ale. </string>
+    <string name="ba_detail">Made with a darker roast of malt, some of the sugars in the malt caramelize and give a lingering sweetness and caramel taste to most brown ales. Easy to drink and full-flavored.</string>
+    <string name="stout_detail">Thick, black opaque and rich. Stouts draw their flavor and color from roasted barley.  They often taste of malt and caramel, with little to no hop aroma or flavor.</string>
+    <string name="porter_detail">Very similar to stout but made from, or largely from, unroasted barley. Sweet and dark brown in color with hints of chocolate and a sometimes-sharp bitterness.</string>
+    <string name="hfw_detail">Wheat beers (also called Wit, Witbier, Witte, or Hefeweizen, depending on country of origin) are, as the name implies, made with a high proportion of wheat. Brewed with a top-fermenting ale yeast, there tends to be a lot of residual sugar providing a delicate sweetness. Many breweries add orange peel or spices to their wittes lending another component to the flavor.</string>
+    <string name="amber_detail"> More malt and darker than their lighter lager relatives, usually amber to copper colored. Flavor profiles vary considerably between breweries. Nine times out of ten when a beer label says no more than “Lager” it is an amber.</string>
+    <string name="pils_detail">"Conceived in Czechoslovakia, easily the world’s most popular beer style. Pilsners are pale, straw colored and crisp with medium body and more hops than traditional lager, but typically smooth and clean."</string>
+    <string name="bock_detail">"Of German origin, brewed in the fall to be enjoyed in the winter or spring. A stronger lager with heavy malt, medium to full bodied, lightly hopped and dark amber to brown in color."</string>
+
+
+
+
+
+</resources>

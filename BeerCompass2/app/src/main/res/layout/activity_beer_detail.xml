@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/beerImage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/beerName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/beerImage"
+        android:layout_toEndOf="@+id/beerImage"
+        android:layout_marginLeft="83dp"
+        android:layout_marginStart="83dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/beerDesc"
+        android:layout_below="@id/beerImage"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/breweryName"
+        android:layout_below="@+id/beerName"
+        android:layout_alignLeft="@+id/beerName"
+        android:layout_alignStart="@+id/beerName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/abv"
+        android:layout_below="@+id/breweryName"
+        android:layout_alignRight="@+id/breweryName"
+        android:layout_alignEnd="@+id/breweryName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibu"
+        android:layout_below="@+id/abv"
+        android:layout_alignRight="@+id/abv"
+        android:layout_alignEnd="@+id/abv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABV: "
+        android:id="@+id/abvText"
+        android:layout_below="@+id/breweryName"
+        android:layout_alignStart="@id/breweryName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IBU: "
+        android:id="@+id/ibuText"
+        android:layout_below="@+id/abvText"
+        android:layout_alignLeft="@+id/abvText"
+        android:layout_alignStart="@+id/abvText" />
+</RelativeLayout>

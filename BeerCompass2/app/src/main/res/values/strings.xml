@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Beer Compass</string>
+    <string name="welcome">Welcome to Beer Compass!</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
